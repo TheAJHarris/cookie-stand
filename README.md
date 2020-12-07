@@ -1,0 +1,1 @@
+# lab-o6-object-literals
