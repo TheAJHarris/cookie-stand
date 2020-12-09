@@ -72,4 +72,3 @@ tokyo.renderTable();
 dubai.renderTable();
 paris.renderTable();
 lima.renderTable();
-
