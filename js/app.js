@@ -101,9 +101,9 @@ function storeSubmit(event) {
   event.preventDefault();
   console.log(event, 'event');
   var storeName = event.target.store.value;
-  var storeMin = event.target.min.value;
-  var storeMax = event.target.max.value;
-  var storeAvg = event.target.avg.value;
+  var storeMin = parseInt(event.target.min.value);
+  var storeMax = parseInt(event.target.max.value);
+  var storeAvg = parseInt(event.target.avg.value);
   console.log(storeName, storeMin, storeMax, storeAvg);
   new Store(storeName, storeMin, storeMax, storeAvg);
   renderStore();
