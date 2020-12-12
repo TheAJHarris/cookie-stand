@@ -15,6 +15,11 @@ body {
 }
 
 table {
-  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue; 
 }
 
+fieldset {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: blue;
+}
